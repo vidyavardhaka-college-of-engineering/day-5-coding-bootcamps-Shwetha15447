@@ -12,7 +12,14 @@ int main()
 	char str[10];
 	scanf("%s", str);
 
-	//Write your code here
+	for(int i=0;i<str.length();i++)
+	{
+		if(str[i]==str[str.length()-i-1])
+		{
+		    Printf("pallindrome");
+		}
+	}
+	Printf("not pallindrome");
 	
 	return 0;
 }
